@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- File CSS -->
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: rgb(216, 245, 241)">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dream Furniture</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pilihan1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pilihan2</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <form class="container-fluid justify-content-start">
+              <button class="btn btn-outline-success me-2" type="button"><img src="https://img.icons8.com/officexs/344/shopping-cart.png" width="20" />Cart</button>
+            </form>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!--Carousel -->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="carousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <img class="img-fluid" src="asset/image/posterfurniture.jpg" alt="" />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left align-self-center">
+                  <h1 class="h1 text-success"><b>Dream Furniture</b> Marketplace</h1>
+                  <h3 class="h2">Perfect for complementing your furniture</h3>
+                  <p>Dream Furniture is an Marketplace where you can buy home and office goods
+                    complete your furniture collection.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <img class="img-fluid" src="asset/image/livingposter.png" alt="" />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left">
+                  <h1 class="h1">Dream Furniture</h1>
+                  <h3 class="h2">Buying furniture is the best if you are on a promo like this.</h3>
+                  <p>
+                    Buying furniture is the best if you are on a promo like this, 
+                    so you can save even more, of course, you will save even more, 
+                    there will be additional FREE SHIPPING around Jabodetabek, 
+                    the profit will double. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <img class="img-fluid" src="asset/image/modernposter.png" alt="" />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left">
+                  <h1 class="h1">Dream Furniture</h1>
+                  <h3 class="h2">The promo you've been waiting for has been launched right at the beginning of the month.</h3>
+                  <p>The promo you've been waiting for has been launched right at the beginning of the month.
+                    For those who are ready to checkout for the contents of your home and office, let's gather,
+                    many NEW PRODUCTS have been prepared that are ready to beautify your home and office.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#carousel" 
+      role="button" data-bs-slide="prev">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#tcarousel" 
+      role="button" data-bs-slide="next">
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    </div>
+    <!-- Carousel end -->
+
+    <!-- Start Best Seller -->
+    <section class="container py-5">
+      <div class="row text-center pt-3">
+        <div class="col-lg-6 m-auto">
+          <h1 class="h1">Categories of The Month Furniture Home</h1>
+          <p>The promo you've been waiting for at the beginning of the month.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 p-5 mt-3"> 
+          <a href="#"><img src="asset/image/ambalan.jpg" class="rounded-circle img-fluid border" /></a>
+          <h5 class="text-center mt-3 mb-3">Ambalan Rak Dinding</h5>
+          <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+          <a href="#"><img src="asset/image/mejabulat.jpg" class="rounded-circle img-fluid border" /></a>
+          <h2 class="h5 text-center mt-3 mb-3">Meja Bundar</h2>
+          <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+          <a href="#"><img src="asset/image/kursicafe.jpg" class="rounded-circle img-fluid border" /></a>
+          <h2 class="h5 text-center mt-3 mb-3">Kursi Teras</h2>
+          <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- End Best Seller -->
+    
+    <!-- Start Best Seller -->
+    <section class="container py-5">
+      <div class="row text-center pt-3">
+        <div class="col-lg-6 m-auto">
+          <h1 class="h1">Office Furniture Category Of The Month </h1>
+          <p>The promo you've been waiting for at the beginning of the month.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 p-5 mt-3"> 
+          <a href="#"><img src="asset/image/lemarirakkantor.jpg" class="rounded-circle img-fluid border" /></a>
+          <h5 class="text-center mt-3 mb-3">Lemari Rak Kantor</h5>
+          <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+          <a href="#"><img src="asset/image/Office-Table.jpg" class="rounded-circle img-fluid border" /></a>
+          <h2 class="h5 text-center mt-3 mb-3">Meja Kantor</h2>
+          <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+          <a href="#"><img src="asset/image/kursikantor.jpg" class="rounded-circle img-fluid border" /></a>
+          <h2 class="h5 text-center mt-3 mb-3">Kursi Kantor</h2>
+          <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- End Best Seller -->
+
+    <br>
+    <a href = "pilihan1.Html">next page</a>
+ 
+       <!-- Start Footer -->
+    <footer class="bg-dark" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-success border-bottom pb-3 border-light logo">Dream Furniture</h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li>
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                Jl. Furniture No.99
+              </li>
+              <li>
+                <i class="fa fa-phone fa-fw"></i>
+                <a class="text-decoration-none" href="tel:010-020-0340">(021) 326 917</a>
+              </li>
+              <li>
+                <i class="fa fa-envelope fa-fw"></i>
+                <a class="text-decoration-none" href="mailto:info@company.com">info@Marketplace.com</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li><a class="text-decoration-none" href="#">Home</a></li>
+              <li><a class="text-decoration-none" href="#">About Us</a></li>
+              <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
+              <li><a class="text-decoration-none" href="#">FAQs</a></li>
+              <li><a class="text-decoration-none" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-100 bg-black py-3">
+        <div class="container">
+          <div class="row pt-2">
+            <div class="col-12">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+  </body>
+</html>
